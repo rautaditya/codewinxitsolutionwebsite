@@ -89,8 +89,7 @@ export default function HomePage() {
           <div style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span className="section-tag">Our Work</span>
             <h2 style={{ fontSize: "clamp(2rem, 4vw, 3rem)", marginBottom: "1rem" }}>
-              Projects We're <span className="gradient-text">Proud Of</span>
-            </h2>
+{"Projects We're "} <span className="gradient-text">Proud Of</span>            </h2>
             <p style={{ color: "var(--color-text-secondary)", maxWidth: 560, margin: "0 auto", fontSize: "1rem" }}>
               A selection of products and platforms we've built for ambitious clients across industries.
             </p>
