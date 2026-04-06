@@ -220,14 +220,14 @@ export default function AboutPage() {
                   textAlign: "center",
                   transition: "var(--transition-med)",
                 }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLElement).style.borderColor = "rgba(0,212,255,0.3)";
-                  (e.currentTarget as HTMLElement).style.transform = "translateY(-4px)";
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLElement).style.borderColor = "var(--color-border)";
-                  (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
-                }}
+                // onMouseEnter={(e) => {
+                //   (e.currentTarget as HTMLElement).style.borderColor = "rgba(0,212,255,0.3)";
+                //   (e.currentTarget as HTMLElement).style.transform = "translateY(-4px)";
+                // }}
+                // onMouseLeave={(e) => {
+                //   (e.currentTarget as HTMLElement).style.borderColor = "var(--color-border)";
+                //   (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+                // }}
               >
                 {/* Avatar placeholder */}
                 <div

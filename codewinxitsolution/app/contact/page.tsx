@@ -132,8 +132,8 @@ export default function ContactPage() {
                       color: "var(--color-text-secondary)",
                       transition: "var(--transition-fast)",
                     }}
-                    onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-primary)")}
-                    onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)")}
+                    // onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-primary)")}
+                    // onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)")}
                   >
                     <div
                       style={{
