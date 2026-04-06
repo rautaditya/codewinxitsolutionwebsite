@@ -81,14 +81,14 @@ export default function Footer() {
                     color: "var(--color-text-secondary)",
                     transition: "var(--transition-fast)",
                   }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = "var(--color-accent)";
-                    (e.currentTarget as HTMLElement).style.borderColor = "var(--color-accent)";
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)";
-                    (e.currentTarget as HTMLElement).style.borderColor = "var(--color-border)";
-                  }}
+                  // onMouseEnter={(e) => {
+                  //   (e.currentTarget as HTMLElement).style.color = "var(--color-accent)";
+                  //   (e.currentTarget as HTMLElement).style.borderColor = "var(--color-accent)";
+                  // }}
+                  // onMouseLeave={(e) => {
+                  //   (e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)";
+                  //   (e.currentTarget as HTMLElement).style.borderColor = "var(--color-border)";
+                  // }}
                 >
                   <Icon size={16} />
                 </a>
@@ -120,8 +120,8 @@ export default function Footer() {
                       fontSize: "0.9rem",
                       transition: "var(--transition-fast)",
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
-                    onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-secondary)")}
+                    // onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
+                    // onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-secondary)")}
                   >
                     {link.label}
                   </Link>
@@ -154,8 +154,8 @@ export default function Footer() {
                       fontSize: "0.9rem",
                       transition: "var(--transition-fast)",
                     }}
-                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
-                    onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-secondary)")}
+                    // onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
+                    // onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-secondary)")}
                   >
                     {s.title}
                   </Link>
@@ -195,8 +195,8 @@ export default function Footer() {
                     fontSize: "0.9rem",
                     transition: "var(--transition-fast)",
                   }}
-                  onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-accent)")}
-                  onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)")}
+                  // onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-accent)")}
+                  // onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--color-text-secondary)")}
                 >
                   <Icon size={16} style={{ flexShrink: 0, marginTop: 3 }} />
                   <span>{text}</span>
@@ -231,8 +231,8 @@ export default function Footer() {
                   fontSize: "0.85rem",
                   transition: "var(--transition-fast)",
                 }}
-                onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
-                onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-muted)")}
+                // onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--color-accent)")}
+                // onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--color-text-muted)")}
               >
                 {item}
               </Link>

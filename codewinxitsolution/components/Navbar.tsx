@@ -108,16 +108,16 @@ export default function Navbar() {
                     transition: "var(--transition-fast)",
                     display: "block",
                   }}
-                  onMouseEnter={(e) => {
-                    if (!isActive) {
-                      (e.target as HTMLElement).style.color = "var(--color-text-primary)";
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isActive) {
-                      (e.target as HTMLElement).style.color = "var(--color-text-secondary)";
-                    }
-                  }}
+                  // onMouseEnter={(e) => {
+                  //   if (!isActive) {
+                  //     (e.target as HTMLElement).style.color = "var(--color-text-primary)";
+                  //   }
+                  // }}
+                  // onMouseLeave={(e) => {
+                  //   if (!isActive) {
+                  //     (e.target as HTMLElement).style.color = "var(--color-text-secondary)";
+                  //   }
+                  // }}
                 >
                   {link.label}
                 </Link>

@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import {
   Globe,
@@ -53,18 +54,18 @@ export default function ServiceCard({
         overflow: "hidden",
         animationDelay: `${index * 0.1}s`,
       }}
-      onMouseEnter={(e) => {
-        const el = e.currentTarget as HTMLElement;
-        el.style.transform = "translateY(-4px)";
-        el.style.borderColor = "rgba(0, 212, 255, 0.3)";
-        el.style.boxShadow = "var(--shadow-card)";
-      }}
-      onMouseLeave={(e) => {
-        const el = e.currentTarget as HTMLElement;
-        el.style.transform = "translateY(0)";
-        el.style.borderColor = "var(--color-border)";
-        el.style.boxShadow = "none";
-      }}
+      // onMouseEnter={(e) => {
+      //   const el = e.currentTarget as HTMLElement;
+      //   el.style.transform = "translateY(-4px)";
+      //   el.style.borderColor = "rgba(0, 212, 255, 0.3)";
+      //   el.style.boxShadow = "var(--shadow-card)";
+      // }}
+      // onMouseLeave={(e) => {
+      //   const el = e.currentTarget as HTMLElement;
+      //   el.style.transform = "translateY(0)";
+      //   el.style.borderColor = "var(--color-border)";
+      //   el.style.boxShadow = "none";
+      // }}
     >
       {/* Subtle glow top-right */}
       <div
@@ -154,12 +155,12 @@ export default function ServiceCard({
           transition: "var(--transition-fast)",
           marginTop: "auto",
         }}
-        onMouseEnter={(e) => {
-          (e.currentTarget as HTMLElement).style.gap = "0.7rem";
-        }}
-        onMouseLeave={(e) => {
-          (e.currentTarget as HTMLElement).style.gap = "0.4rem";
-        }}
+        // onMouseEnter={(e) => {
+        //   (e.currentTarget as HTMLElement).style.gap = "0.7rem";
+        // }}
+        // onMouseLeave={(e) => {
+        //   (e.currentTarget as HTMLElement).style.gap = "0.4rem";
+        // }}
       >
         Learn More <ArrowRight size={14} />
       </Link>

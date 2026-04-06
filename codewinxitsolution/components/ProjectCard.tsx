@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
@@ -32,18 +34,18 @@ export default function ProjectCard({
         transition: "var(--transition-med)",
         animationDelay: `${index * 0.1}s`,
       }}
-      onMouseEnter={(e) => {
-        const el = e.currentTarget as HTMLElement;
-        el.style.transform = "translateY(-4px)";
-        el.style.borderColor = "rgba(0, 212, 255, 0.3)";
-        el.style.boxShadow = "var(--shadow-card)";
-      }}
-      onMouseLeave={(e) => {
-        const el = e.currentTarget as HTMLElement;
-        el.style.transform = "translateY(0)";
-        el.style.borderColor = "var(--color-border)";
-        el.style.boxShadow = "none";
-      }}
+      // onMouseEnter={(e) => {
+      //   const el = e.currentTarget as HTMLElement;
+      //   el.style.transform = "translateY(-4px)";
+      //   el.style.borderColor = "rgba(0, 212, 255, 0.3)";
+      //   el.style.boxShadow = "var(--shadow-card)";
+      // }}
+      // onMouseLeave={(e) => {
+      //   const el = e.currentTarget as HTMLElement;
+      //   el.style.transform = "translateY(0)";
+      //   el.style.borderColor = "var(--color-border)";
+      //   el.style.boxShadow = "none";
+      // }}
     >
       {/* Image placeholder */}
       <div
@@ -111,12 +113,12 @@ export default function ProjectCard({
             color: "var(--color-text-primary)",
             transition: "var(--transition-fast)",
           }}
-          onMouseEnter={(e) => {
-            (e.currentTarget as HTMLElement).style.background = "var(--gradient-accent)";
-          }}
-          onMouseLeave={(e) => {
-            (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.1)";
-          }}
+          // onMouseEnter={(e) => {
+          //   (e.currentTarget as HTMLElement).style.background = "var(--gradient-accent)";
+          // }}
+          // onMouseLeave={(e) => {
+          //   (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.1)";
+          // }}
         >
           <ArrowUpRight size={16} />
         </Link>

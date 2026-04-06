@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Star, CheckCircle2 } from "lucide-react";
